@@ -16,7 +16,7 @@ public abstract class VehiculoAereo extends Vehiculo{
 	}
 
 	public void volar() {
-		System.out.println("El vheiculo "+getNombre() + " esta volando");
+		System.out.println("El vehículo aereo " + getNombre() + " esta volando como mucho a una altura de "+ this.altitudMaxima);
 	}
 	
 }

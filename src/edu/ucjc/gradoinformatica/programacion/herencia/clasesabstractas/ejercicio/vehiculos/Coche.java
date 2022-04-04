@@ -17,7 +17,7 @@ public final class Coche extends VehiculoTerrestre {
 
 	@Override
 	public void arrancar() {
-		// TODO Auto-generated method stub
+		System.out.println("Arrancando coche "+ getNombre());
 
 	}
 	

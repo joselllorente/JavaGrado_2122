@@ -28,7 +28,7 @@ public class Moto extends VehiculoTerrestre {
 
 	@Override
 	public void arrancar() {
-		System.out.println("Arrancando Moto");
+		System.out.println("Arrancando Moto " + getNombre());
 	}
 	
 	public void hacerCaballito() {
