@@ -25,7 +25,6 @@ Crear método en FlotaVehiculos (no estático) para poner a derrapar sólo a los ve
 public class FlotaVehiculos {
 
 	public static void main(String[] args) {
-
 		//Dos objetos de tipo Moto, el primero asociado a una variable de tipo Moto 
 		//y el segundo a una variable de tipo VehiculoTerrestre. 
 		Moto moto1 = new Moto("Moto1",2 ,"Manillar","cadena");
